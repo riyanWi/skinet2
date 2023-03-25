@@ -1,0 +1,15 @@
+E:\belajar\asp.net\skinet2\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+E:\belajar\asp.net\skinet2\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+E:\belajar\asp.net\skinet2\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+E:\belajar\asp.net\skinet2\Infrastructure\bin\Debug\net7.0\Core.dll
+E:\belajar\asp.net\skinet2\Infrastructure\bin\Debug\net7.0\Core.pdb
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+E:\belajar\asp.net\skinet2\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll

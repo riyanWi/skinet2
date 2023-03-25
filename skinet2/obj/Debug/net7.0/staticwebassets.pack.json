@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\boot-ang1.png",
+      "PackagePath": "staticwebassets\\images\\products\\boot-ang1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\boot-ang2.png",
+      "PackagePath": "staticwebassets\\images\\products\\boot-ang2.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\boot-core1.png",
+      "PackagePath": "staticwebassets\\images\\products\\boot-core1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\boot-core2.png",
+      "PackagePath": "staticwebassets\\images\\products\\boot-core2.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\boot-redis1.png",
+      "PackagePath": "staticwebassets\\images\\products\\boot-redis1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\glove-code1.png",
+      "PackagePath": "staticwebassets\\images\\products\\glove-code1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\glove-code2.png",
+      "PackagePath": "staticwebassets\\images\\products\\glove-code2.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\glove-react1.png",
+      "PackagePath": "staticwebassets\\images\\products\\glove-react1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\glove-react2.png",
+      "PackagePath": "staticwebassets\\images\\products\\glove-react2.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\hat-core1.png",
+      "PackagePath": "staticwebassets\\images\\products\\hat-core1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\hat-react1.png",
+      "PackagePath": "staticwebassets\\images\\products\\hat-react1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\hat-react2.png",
+      "PackagePath": "staticwebassets\\images\\products\\hat-react2.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\sb-ang1.png",
+      "PackagePath": "staticwebassets\\images\\products\\sb-ang1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\sb-ang2.png",
+      "PackagePath": "staticwebassets\\images\\products\\sb-ang2.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\sb-core1.png",
+      "PackagePath": "staticwebassets\\images\\products\\sb-core1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\sb-core2.png",
+      "PackagePath": "staticwebassets\\images\\products\\sb-core2.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\sb-react1.png",
+      "PackagePath": "staticwebassets\\images\\products\\sb-react1.png"
+    },
+    {
+      "Id": "E:\\belajar\\asp.net\\skinet2\\skinet2\\wwwroot\\images\\products\\sb-ts1.png",
+      "PackagePath": "staticwebassets\\images\\products\\sb-ts1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.skinet2.props",
+      "PackagePath": "build\\skinet2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.skinet2.props",
+      "PackagePath": "buildMultiTargeting\\skinet2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.skinet2.props",
+      "PackagePath": "buildTransitive\\skinet2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.skinet2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
