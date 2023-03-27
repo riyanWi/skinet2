@@ -4,12 +4,12 @@ using Core.Entities;
 using Core.Specifications;
 using skinet2.Dtos;
 using AutoMapper;
+using skinet2.Errors;
 
 namespace skinet2.Controllers
 {
-	[Route("api/[controller]")]
-	[ApiController]
-	public class ProductsController : ControllerBase
+	
+	public class ProductsController : BaseApiController
 	{
 		private readonly IGenericRepository<Products> _productsRepo;
 		private readonly IGenericRepository<ProductBrand> _productBrandRepo;
@@ -39,11 +39,15 @@ namespace skinet2.Controllers
 		}
 
 		[HttpGet("{id}")]
+		[ProducesResponseType(StatusCodes.Status200OK)]
+		[ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
 		public async Task<ActionResult<ProductToReturnDto>> GetProducts(int id)
 		{
 			var spec = new ProductsWithTypesAndBrandsSpecifications(id);
 
 			var product = await _productsRepo.GetEntityWithSpec(spec);
+
+			if (product == null) return NotFound(new ApiResponse(404));
 
 			return _mapper.Map<Products, ProductToReturnDto>(product);
 		}
