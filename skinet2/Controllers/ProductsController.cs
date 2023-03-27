@@ -29,9 +29,9 @@ namespace skinet2.Controllers
 		}
 
 		[HttpGet]
-		public async Task<ActionResult<List<ProductToReturnDto>>> GetProducts()
+		public async Task<ActionResult<List<ProductToReturnDto>>> GetProducts([FromQuery]ProductSpecParams productParams)
 		{
-			var spec = new ProductsWithTypesAndBrandsSpecifications();
+			var spec = new ProductsWithTypesAndBrandsSpecifications(productParams);
 
 			var products = await _productsRepo.ListAsync(spec);
 
