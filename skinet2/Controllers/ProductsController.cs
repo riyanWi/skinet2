@@ -5,6 +5,7 @@ using Core.Specifications;
 using skinet2.Dtos;
 using AutoMapper;
 using skinet2.Errors;
+using skinet2.Helpers;
 
 namespace skinet2.Controllers
 {
@@ -29,13 +30,19 @@ namespace skinet2.Controllers
 		}
 
 		[HttpGet]
-		public async Task<ActionResult<List<ProductToReturnDto>>> GetProducts([FromQuery]ProductSpecParams productParams)
+		public async Task<ActionResult<Pagination<ProductToReturnDto>>> GetProducts([FromQuery]ProductSpecParams productParams)
 		{
 			var spec = new ProductsWithTypesAndBrandsSpecifications(productParams);
 
+			var countSpec = new ProductWithFilterForCountSpecification(productParams);
+
+			var totalItems = await _productsRepo.CountAsync(countSpec);
+
 			var products = await _productsRepo.ListAsync(spec);
 
-			return Ok(_mapper.Map<IReadOnlyList<Products>, IReadOnlyList<ProductToReturnDto>>(products));
+			var data = _mapper.Map<IReadOnlyList<Products>, IReadOnlyList<ProductToReturnDto>>(products);
+
+			return Ok(new Pagination<ProductToReturnDto>(productParams.PageIndex, productParams.PageSize, totalItems, data));
 		}
 
 		[HttpGet("{id}")]
