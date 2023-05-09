@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6YosAdPIObTBPbaPj1vk39W8nOZmD/mrsON0lLwnDrooO4qFa1hg9DOBFuTV4uC0tFvMGPH099CPoDf6uwNoCA==",
+  "dgSpecHash": "SvaPdbs/puHhSPwWelgIQ0MUaMrIuRK0hP5NuD/8IDNiY+YH3ZM3yO3ww9brBYbF/x4MzZkQzWbIEDWX1zU5eQ==",
   "success": true,
   "projectFilePath": "E:\\belajar\\asp.net\\skinet2\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -21,10 +21,13 @@
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS-TUF\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\ASUS-TUF\\.nuget\\packages\\stackexchange.redis\\2.6.111\\stackexchange.redis.2.6.111.nupkg.sha512",
+    "C:\\Users\\ASUS-TUF\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\ASUS-TUF\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"

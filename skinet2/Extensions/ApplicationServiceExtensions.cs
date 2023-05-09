@@ -3,6 +3,7 @@ using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using skinet2.Errors;
+using StackExchange.Redis;
 
 namespace skinet2.Extensions
 {
@@ -16,6 +17,14 @@ namespace skinet2.Extensions
 			services.AddDbContext<StoreContext>(opt => {
 				opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
 			});
+			
+			services.AddSingleton<IConnectionMultiplexer>(c => 
+			{
+				var options = ConfigurationOptions.Parse(config.GetConnectionString("Redis"));
+				return ConnectionMultiplexer.Connect(options);
+			});
+			services.AddScoped<IBasketRepository, BasketRepository>();
+
 			services.AddScoped<IProductRepository, ProductRepository>();
 			services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 			services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
